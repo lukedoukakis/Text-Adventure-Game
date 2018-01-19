@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static final Scanner input = new Scanner(System.in);
+	
+	public static void main(final String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		Adventurer player = new Adventurer();
+		
+		System.out.println("Welcome to Text Adventure Game! What do you call yourself, bold adventurer?");
+		player.setName(s.nextLine());
+		System.out.println("Mmm, " + player.getName() + ". I can see the storybooks in your name being written already. Tell me, " + player.getName() + ", are you a knight ('k') or a mage ('m')?");
+		player.setType(s.nextLine());
+		
+		System.out.println(player.getName() + ", you have two quests that must be completed. Choose which one you will take on first.");
+		System.out.println("\nThere is a fire dragon inside the great mountain to the east that has been harassing nearby citizens. Slay him, and incredible treasure will be yours for the taking. Enter '1' to take on this challenge.");
+		System.out.println("The princess of the kingdom is being held for ransom by a group of nasty bandits. Kill the fiends and rescue the princess or pay them off. Enter '2' to take on this challenge.");
+		
+	}
+
+}
