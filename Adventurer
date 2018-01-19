@@ -2,7 +2,7 @@ public class Adventurer {
 
 	private int gold, lvl;
 	
-	private String type; //changed type from a char to string because i think it will be easier this way -luke
+	private String type;
 	
 	private String name;
 	
