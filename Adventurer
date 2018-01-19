@@ -1,0 +1,48 @@
+public class Adventurer {
+
+	private int gold, lvl;
+	
+	private String type; //changed type from a char to string because i think it will be easier this way -luke
+	
+	private String name;
+	
+	/*  
+	 
+	constructor is unneeded, these fields are set up by the user in the main method -luke
+	
+	public Adventurer(final String name, final char type) {
+		this.name = name;
+		this.type = type;
+	}
+	*/
+	
+	//here are some getter and setter methods for name and type -luke
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public void setType(String type){
+		this.type = type;
+	}
+	
+	public String getType(){
+		return this.type;
+	}
+	
+	//-----------------------------------
+	
+	
+	public void attack(final char enemy, final int moveSelection) {
+		
+	}
+	
+	public void sneak() {//Is this method really needed?
+		
+	}
+	
+}
